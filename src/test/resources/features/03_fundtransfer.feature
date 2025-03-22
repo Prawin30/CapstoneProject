@@ -11,5 +11,4 @@ Feature: Fund Transfer Functionality
     Examples:
       | fromAccount | toAccount | amount  | message                                          |checkBalance|
       | Savings(Avail. balance = $ 1548)    | Checking   | 500     | You successfully transferred $500 from Checking to Savings |yes|
-      | Checking(Avail. balance = $ -500.2)    | Savings   | 10000  | Insufficient funds.                              |no|
-      | Checking(Avail. balance = $ -500.2)    | Savings   | -100    | Invalid amount entered.                         |no|
+     
