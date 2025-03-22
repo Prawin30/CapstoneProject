@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="16" passed="10" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-20T03:38:49Z" name="Automation Suite" finished-at="2025-03-20T03:40:33Z" duration-ms="104752">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-20T03:38:49Z" name="Test Execution" finished-at="2025-03-20T03:40:33Z" duration-ms="104752">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:08:49Z" name="setUpClass" finished-at="2025-03-20T09:09:03Z" duration-ms="13802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6025d790]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:07Z" duration-ms="4318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tries to login with different credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenarios for Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:07Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:11Z" duration-ms="3891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tries to login with different credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenarios for Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:11Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:19Z" duration-ms="8420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tries to login with different credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scenarios for Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:19Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:22Z" duration-ms="3051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Account Summary Page Loads Correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Summary Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:25Z" duration-ms="2435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Account Types on Account Summary Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Account Summary Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:25Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:33Z" duration-ms="8618" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fund Transfer Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Expected message not displayed! expected [You successfully transferred $500 from Checking to Savings] but found [You successfully submitted your transaction.],
+	Account Balance did not Update! expected [$1048] but found [$1548]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Expected message not displayed! expected [You successfully transferred $500 from Checking to Savings] but found [You successfully submitted your transaction.],
+	Account Balance did not Update! expected [$1048] but found [$1548]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)
+	at ✽.User should see msg as "You successfully transferred $500 from Checking to Savings" and balance must be updated "yes"(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:38Z" duration-ms="4997" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fund Transfer Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Expected message not displayed! expected [Insufficient funds.] but found [You successfully submitted your transaction.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Expected message not displayed! expected [Insufficient funds.] but found [You successfully submitted your transaction.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)
+	at ✽.User should see msg as "Insufficient funds." and balance must be updated "no"(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:42Z" duration-ms="3797" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fund Transfer Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Fund Transfer Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Expected message not displayed! expected [Invalid amount entered.] but found [You successfully submitted your transaction.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Expected message not displayed! expected [Invalid amount entered.] but found [You successfully submitted your transaction.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)
+	at ✽.User should see msg as "Invalid amount entered." and balance must be updated "no"(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:42Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:49Z" duration-ms="7242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pay Bills with different scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pay Bills Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:49Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:09:56Z" duration-ms="6223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pay Bills with different scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pay Bills Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:09:56Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:10:01Z" duration-ms="5575" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pay Bills with different scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pay Bills Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected message not displayed! expected [Amount field cannot be empty.] but found [Please fill out this field.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected message not displayed! expected [Amount field cannot be empty.] but found [Please fill out this field.]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at stepDefinitions.PayBillsFunctionality.user_should_see_the_message(PayBillsFunctionality.java:55)
+	at ✽.User should see the "Amount field cannot be empty."(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/04_paybills.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:10:01Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:10:09Z" duration-ms="7506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add a new payee with different inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add New Payee Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:10:09Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:10:13Z" duration-ms="4343" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add a new payee with different inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add New Payee Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Message mismatch! expected [All fields are required.] but found [Please fill out this field.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Message mismatch! expected [All fields are required.] but found [Please fill out this field.]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at stepDefinitions.NewPayeeFunctionality.user_should_see_payee_added_message(NewPayeeFunctionality.java:52)
+	at ✽.User should see Payee Added "All fields are required."(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/05_addnewpayee.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:10:13Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:10:24Z" duration-ms="10775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User downloads an account statement"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Download Account Statement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:10:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:10:26Z" duration-ms="1825" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs out successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Logout Successful, But user not directed to login page ! expected [http://zero.webappsecurity.com/login.html] but found [http://zero.webappsecurity.com/index.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Logout Successful, But user not directed to login page ! expected [http://zero.webappsecurity.com/login.html] but found [http://zero.webappsecurity.com/index.html]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at stepDefinitions.LogoutFunctionality.user_should_be_redirected_to_login_page(LogoutFunctionality.java:32)
+	at ✽.User should be redirected to the login page(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/07_logout.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:10:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-20T09:10:27Z" duration-ms="1025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify session expiry after logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@491b9b8]" started-at="2025-03-20T09:10:27Z" name="tearDownClass" finished-at="2025-03-20T09:10:33Z" duration-ms="6774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Test Execution -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

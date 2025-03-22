@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG new reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\kalai\eclipse-workspace\CAPSTONEPROJECT\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Automation_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 6 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Suite" class="hide-methods failed suite-Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Automation_Suite -->
+                      <a href="#" panel-name="suite-Automation_Suite" class="show-methods failed suite-Automation_Suite"> (show)</a> <!-- show-methods failed suite-Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fund Transfer Validation&quot;, &quot;Fund Transfer Functionality&quot;)">runScenario("Fund Transfer Validation", "Fund Transfer Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add a new payee with different inputs&quot;, &quot;Add New Payee Functionality&quot;)">runScenario("Add a new payee with different inputs", "Add New Payee Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fund Transfer Validation&quot;, &quot;Fund Transfer Functionality&quot;)">runScenario("Fund Transfer Validation", "Fund Transfer Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User logs out successfully&quot;, &quot;Logout Functionality&quot;)">runScenario("User logs out successfully", "Logout Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Fund Transfer Validation&quot;, &quot;Fund Transfer Functionality&quot;)">runScenario("Fund Transfer Validation", "Fund Transfer Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Pay Bills with different scenarios&quot;, &quot;Pay Bills Functionality&quot;)">runScenario("Pay Bills with different scenarios", "Pay Bills Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_Suite" class="hide-methods passed suite-Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Automation_Suite -->
+                      <a href="#" panel-name="suite-Automation_Suite" class="show-methods passed suite-Automation_Suite"> (show)</a> <!-- show-methods passed suite-Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User tries to login with different credentials&quot;, &quot;Scenarios for Login Functionality&quot;)">runScenario("User tries to login with different credentials", "Scenarios for Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Account Types on Account Summary Page&quot;, &quot;Account Summary Functionality&quot;)">runScenario("Validate Account Types on Account Summary Page", "Account Summary Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Pay Bills with different scenarios&quot;, &quot;Pay Bills Functionality&quot;)">runScenario("Pay Bills with different scenarios", "Pay Bills Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify session expiry after logout&quot;, &quot;Logout Functionality&quot;)">runScenario("Verify session expiry after logout", "Logout Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User tries to login with different credentials&quot;, &quot;Scenarios for Login Functionality&quot;)">runScenario("User tries to login with different credentials", "Scenarios for Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User tries to login with different credentials&quot;, &quot;Scenarios for Login Functionality&quot;)">runScenario("User tries to login with different credentials", "Scenarios for Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add a new payee with different inputs&quot;, &quot;Add New Payee Functionality&quot;)">runScenario("Add a new payee with different inputs", "Add New Payee Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User downloads an account statement&quot;, &quot;Download Account Statement&quot;)">runScenario("User downloads an account statement", "Download Account Statement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Pay Bills with different scenarios&quot;, &quot;Pay Bills Functionality&quot;)">runScenario("Pay Bills with different scenarios", "Pay Bills Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Account Summary Page Loads Correctly&quot;, &quot;Account Summary Functionality&quot;)">runScenario("Verify Account Summary Page Loads Correctly", "Account Summary Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Suite" class="panel Automation_Suite">
+          <div class="suite-Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Fund Transfer Validation&quot;, &quot;Fund Transfer Functionality&quot;)">
+                  </a> <!-- runScenario("Fund Transfer Validation", "Fund Transfer Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Fund Transfer Validation", "Fund Transfer Functionality")</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: The following asserts failed:
+	Expected message not displayed! expected [You successfully transferred $500 from Checking to Savings] but found [You successfully submitted your transaction.],
+	Account Balance did not Update! expected [$1048] but found [$1548]
+	at stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)
+	at ✽.User should see msg as &quot;You successfully transferred $500 from Checking to Savings&quot; and balance must be updated &quot;yes&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)
+... Removed 2 stack frames<br/> java.lang.AssertionError: The following asserts failed:
+	Expected message not displayed! expected [You successfully transferred $500 from Checking to Savings] but found [You successfully submitted your transaction.],
+	Account Balance did not Update! expected [$1048] but found [$1548]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)
+	at ✽.User should see msg as &quot;You successfully transferred $500 from Checking to Savings&quot; and balance must be updated &quot;yes&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)
+"</b><br>org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)<br>org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)<br>stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)<br>✽.User should see msg as "You successfully transferred $500 from Checking to Savings" and balance must be updated "yes"(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add a new payee with different inputs&quot;, &quot;Add New Payee Functionality&quot;)">
+                  </a> <!-- runScenario("Add a new payee with different inputs", "Add New Payee Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add a new payee with different inputs", "Add New Payee Functionality")</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: Message mismatch! expected [All fields are required.] but found [Please fill out this field.]
+	at stepDefinitions.NewPayeeFunctionality.user_should_see_payee_added_message(NewPayeeFunctionality.java:52)
+	at ✽.User should see Payee Added &quot;All fields are required.&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/05_addnewpayee.feature:9)
+... Removed 4 stack frames<br/> java.lang.AssertionError: Message mismatch! expected [All fields are required.] but found [Please fill out this field.]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at stepDefinitions.NewPayeeFunctionality.user_should_see_payee_added_message(NewPayeeFunctionality.java:52)
+	at ✽.User should see Payee Added &quot;All fields are required.&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/05_addnewpayee.feature:9)
+"</b><br>org.testng.Assert.fail(Assert.java:89)<br>org.testng.Assert.failNotEquals(Assert.java:489)<br>org.testng.Assert.assertEquals(Assert.java:118)<br>org.testng.Assert.assertEquals(Assert.java:171)<br>stepDefinitions.NewPayeeFunctionality.user_should_see_payee_added_message(NewPayeeFunctionality.java:52)<br>✽.User should see Payee Added "All fields are required."(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/05_addnewpayee.feature:9)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Fund Transfer Validation&quot;, &quot;Fund Transfer Functionality&quot;)">
+                  </a> <!-- runScenario("Fund Transfer Validation", "Fund Transfer Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Fund Transfer Validation", "Fund Transfer Functionality")</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: The following asserts failed:
+	Expected message not displayed! expected [Insufficient funds.] but found [You successfully submitted your transaction.]
+	at stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)
+	at ✽.User should see msg as &quot;Insufficient funds.&quot; and balance must be updated &quot;no&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)
+... Removed 2 stack frames<br/> java.lang.AssertionError: The following asserts failed:
+	Expected message not displayed! expected [Insufficient funds.] but found [You successfully submitted your transaction.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)
+	at ✽.User should see msg as &quot;Insufficient funds.&quot; and balance must be updated &quot;no&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)
+"</b><br>org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)<br>org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)<br>stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)<br>✽.User should see msg as "Insufficient funds." and balance must be updated "no"(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User logs out successfully&quot;, &quot;Logout Functionality&quot;)">
+                  </a> <!-- runScenario("User logs out successfully", "Logout Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User logs out successfully", "Logout Functionality")</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: Logout Successful, But user not directed to login page ! expected [http://zero.webappsecurity.com/login.html] but found [http://zero.webappsecurity.com/index.html]
+	at stepDefinitions.LogoutFunctionality.user_should_be_redirected_to_login_page(LogoutFunctionality.java:32)
+	at ✽.User should be redirected to the login page(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/07_logout.feature:6)
+... Removed 4 stack frames<br/> java.lang.AssertionError: Logout Successful, But user not directed to login page ! expected [http://zero.webappsecurity.com/login.html] but found [http://zero.webappsecurity.com/index.html]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at stepDefinitions.LogoutFunctionality.user_should_be_redirected_to_login_page(LogoutFunctionality.java:32)
+	at ✽.User should be redirected to the login page(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/07_logout.feature:6)
+"</b><br>org.testng.Assert.fail(Assert.java:89)<br>org.testng.Assert.failNotEquals(Assert.java:489)<br>org.testng.Assert.assertEquals(Assert.java:118)<br>org.testng.Assert.assertEquals(Assert.java:171)<br>stepDefinitions.LogoutFunctionality.user_should_be_redirected_to_login_page(LogoutFunctionality.java:32)<br>✽.User should be redirected to the login page(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/07_logout.feature:6)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Fund Transfer Validation&quot;, &quot;Fund Transfer Functionality&quot;)">
+                  </a> <!-- runScenario("Fund Transfer Validation", "Fund Transfer Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Fund Transfer Validation", "Fund Transfer Functionality")</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: The following asserts failed:
+	Expected message not displayed! expected [Invalid amount entered.] but found [You successfully submitted your transaction.]
+	at stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)
+	at ✽.User should see msg as &quot;Invalid amount entered.&quot; and balance must be updated &quot;no&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)
+... Removed 2 stack frames<br/> java.lang.AssertionError: The following asserts failed:
+	Expected message not displayed! expected [Invalid amount entered.] but found [You successfully submitted your transaction.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)
+	at ✽.User should see msg as &quot;Invalid amount entered.&quot; and balance must be updated &quot;no&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)
+"</b><br>org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)<br>org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)<br>stepDefinitions.FundTransferFunctionality.user_should_see_message(FundTransferFunctionality.java:57)<br>✽.User should see msg as "Invalid amount entered." and balance must be updated "no"(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/03_fundtransfer.feature:9)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Pay Bills with different scenarios&quot;, &quot;Pay Bills Functionality&quot;)">
+                  </a> <!-- runScenario("Pay Bills with different scenarios", "Pay Bills Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Pay Bills with different scenarios", "Pay Bills Functionality")</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: Expected message not displayed! expected [Amount field cannot be empty.] but found [Please fill out this field.]
+	at stepDefinitions.PayBillsFunctionality.user_should_see_the_message(PayBillsFunctionality.java:55)
+	at ✽.User should see the &quot;Amount field cannot be empty.&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/04_paybills.feature:9)
+... Removed 4 stack frames<br/> java.lang.AssertionError: Expected message not displayed! expected [Amount field cannot be empty.] but found [Please fill out this field.]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at stepDefinitions.PayBillsFunctionality.user_should_see_the_message(PayBillsFunctionality.java:55)
+	at ✽.User should see the &quot;Amount field cannot be empty.&quot;(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/04_paybills.feature:9)
+"</b><br>org.testng.Assert.fail(Assert.java:89)<br>org.testng.Assert.failNotEquals(Assert.java:489)<br>org.testng.Assert.assertEquals(Assert.java:118)<br>org.testng.Assert.assertEquals(Assert.java:171)<br>stepDefinitions.PayBillsFunctionality.user_should_see_the_message(PayBillsFunctionality.java:55)<br>✽.User should see the "Amount field cannot be empty."(file:///C:/Users/kalai/eclipse-workspace/CAPSTONEPROJECT/src/test/resources/features/04_paybills.feature:9)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-failed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User tries to login with different credentials&quot;, &quot;Scenarios for Login Functionality&quot;)">
+                  </a> <!-- runScenario("User tries to login with different credentials", "Scenarios for Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User tries to login with different credentials", "Scenarios for Login Functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Account Types on Account Summary Page&quot;, &quot;Account Summary Functionality&quot;)">
+                  </a> <!-- runScenario("Validate Account Types on Account Summary Page", "Account Summary Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Account Types on Account Summary Page", "Account Summary Functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Pay Bills with different scenarios&quot;, &quot;Pay Bills Functionality&quot;)">
+                  </a> <!-- runScenario("Pay Bills with different scenarios", "Pay Bills Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Pay Bills with different scenarios", "Pay Bills Functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify session expiry after logout&quot;, &quot;Logout Functionality&quot;)">
+                  </a> <!-- runScenario("Verify session expiry after logout", "Logout Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify session expiry after logout", "Logout Functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User tries to login with different credentials&quot;, &quot;Scenarios for Login Functionality&quot;)">
+                  </a> <!-- runScenario("User tries to login with different credentials", "Scenarios for Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User tries to login with different credentials", "Scenarios for Login Functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User tries to login with different credentials&quot;, &quot;Scenarios for Login Functionality&quot;)">
+                  </a> <!-- runScenario("User tries to login with different credentials", "Scenarios for Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User tries to login with different credentials", "Scenarios for Login Functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add a new payee with different inputs&quot;, &quot;Add New Payee Functionality&quot;)">
+                  </a> <!-- runScenario("Add a new payee with different inputs", "Add New Payee Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add a new payee with different inputs", "Add New Payee Functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User downloads an account statement&quot;, &quot;Download Account Statement&quot;)">
+                  </a> <!-- runScenario("User downloads an account statement", "Download Account Statement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User downloads an account statement", "Download Account Statement")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Pay Bills with different scenarios&quot;, &quot;Pay Bills Functionality&quot;)">
+                  </a> <!-- runScenario("Pay Bills with different scenarios", "Pay Bills Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Pay Bills with different scenarios", "Pay Bills Functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Account Summary Page Loads Correctly&quot;, &quot;Account Summary Functionality&quot;)">
+                  </a> <!-- runScenario("Verify Account Summary Page Loads Correctly", "Account Summary Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Account Summary Page Loads Correctly", "Account Summary Functionality")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+        </div> <!-- panel Automation_Suite -->
+        <div panel-name="test-xml-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kalai\eclipse-workspace\CAPSTONEPROJECT\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;none&quot; name=&quot;Automation Suite&quot;&gt;
+  &lt;test name=&quot;Test Execution&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Execution --&gt;
+&lt;/suite&gt; &lt;!-- Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Execution (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Suite');
+function tableData_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runner.TestRunner')
+data.setCell(0, 3, 10775);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runner.TestRunner')
+data.setCell(1, 3, 8618);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.TestRunner')
+data.setCell(2, 3, 8420);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runner.TestRunner')
+data.setCell(3, 3, 7506);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runner.TestRunner')
+data.setCell(4, 3, 7242);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runner.TestRunner')
+data.setCell(5, 3, 6223);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runner.TestRunner')
+data.setCell(6, 3, 5575);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runner.TestRunner')
+data.setCell(7, 3, 4997);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runner.TestRunner')
+data.setCell(8, 3, 4343);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runner.TestRunner')
+data.setCell(9, 3, 4318);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runner.TestRunner')
+data.setCell(10, 3, 3891);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runner.TestRunner')
+data.setCell(11, 3, 3797);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runner.TestRunner')
+data.setCell(12, 3, 3051);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'runner.TestRunner')
+data.setCell(13, 3, 2435);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'runner.TestRunner')
+data.setCell(14, 3, 1825);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'runner.TestRunner')
+data.setCell(15, 3, 1025);
+window.suiteTableData['Automation_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Automation_Suite">
+              </div> <!-- times-div-Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@6025d790)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User tries to login with different credentials", "Scenarios for Login Functionality")</span>
+                <span class="method-start">13824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User tries to login with different credentials", "Scenarios for Login Functionality")</span>
+                <span class="method-start">18142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User tries to login with different credentials", "Scenarios for Login Functionality")</span>
+                <span class="method-start">22042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Account Summary Page Loads Correctly", "Account Summary Functionality")</span>
+                <span class="method-start">30463 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Account Types on Account Summary Page", "Account Summary Functionality")</span>
+                <span class="method-start">33522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Fund Transfer Validation", "Fund Transfer Functionality")</span>
+                <span class="method-start">35957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Fund Transfer Validation", "Fund Transfer Functionality")</span>
+                <span class="method-start">44575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Fund Transfer Validation", "Fund Transfer Functionality")</span>
+                <span class="method-start">49583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Pay Bills with different scenarios", "Pay Bills Functionality")</span>
+                <span class="method-start">53382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Pay Bills with different scenarios", "Pay Bills Functionality")</span>
+                <span class="method-start">60624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Pay Bills with different scenarios", "Pay Bills Functionality")</span>
+                <span class="method-start">66847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add a new payee with different inputs", "Add New Payee Functionality")</span>
+                <span class="method-start">72422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Add a new payee with different inputs", "Add New Payee Functionality")</span>
+                <span class="method-start">79932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User downloads an account statement", "Download Account Statement")</span>
+                <span class="method-start">84300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User logs out successfully", "Logout Functionality")</span>
+                <span class="method-start">95077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify session expiry after logout", "Logout Functionality")</span>
+                <span class="method-start">96905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">97932 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
