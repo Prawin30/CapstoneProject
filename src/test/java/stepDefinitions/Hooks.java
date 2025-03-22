@@ -5,7 +5,7 @@ import io.cucumber.java.AfterAll;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.LoginPage;
-import utils.TestListener;  // ✅ Import TestListener
+
 
 
 public class Hooks {
@@ -20,7 +20,7 @@ public class Hooks {
             System.out.println("Opening the Webpage!");
             driver.manage().window().maximize();
             driver.get("http://zero.webappsecurity.com/login.html");
-            TestListener.setDriver(driver);  // ✅ Add this line to pass WebDriver
+           
             Thread.sleep(1000);
         }
     }
